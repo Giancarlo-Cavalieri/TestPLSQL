@@ -1,0 +1,5 @@
+CREATE OR REPLACE PACKAGE Cliente IS
+
+	
+END Cliente;
+/
