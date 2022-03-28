@@ -8,5 +8,8 @@ CREATE OR REPLACE PACKAGE Cliente IS
 	TYPE tab_cli IS TABLE OF cli
     INDEX BY BINARY_INTEGER;
 	
+	TipoPessoaFisica 	CONSTANT NUMBER := 1;
+	TipoPessoaJuridica 	CONSTANT NUMBER := 2;
+	
 END Cliente;
 /
